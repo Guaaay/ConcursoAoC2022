@@ -30,9 +30,11 @@ int main()
         if ((range1_1 <= range2_1 && range1_2 >=range2_2) || range1_1 >= range2_1 && range1_2 <= range2_2){    
             total_score += 1;
         }
+        //First range overlaps with second at one of both extremes
         else if((range1_1 <= range2_1 && range1_2 >= range2_1) || (range1_1 <= range2_2 && range1_2 >= range2_2)){
             total_score += 1;
         }
+        //second range overlaps with first at one of both extremes
         else if((range1_1 >= range2_1 && range2_2 >= range1_2) || (range1_1 >= range2_1 && range1_2 <= range2_2)){
             total_score += 1;
         }
