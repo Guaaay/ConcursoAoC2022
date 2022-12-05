@@ -45,5 +45,6 @@ int main () {
         my_play = myText.substr(myText.find(delimiter)+1, myText.length());
         total_score += r_p_s(enemy_play,my_play);
     }
+    MyReadFile.close(); 
     cout << total_score << endl;
 }

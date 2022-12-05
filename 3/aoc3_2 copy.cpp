@@ -61,5 +61,6 @@ int main () {
         }
         
     }
+    MyReadFile.close(); 
     cout << total_score << endl;
 }

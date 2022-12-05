@@ -37,5 +37,6 @@ int main () {
             total_score += result - 38;
         }
     }
+    MyReadFile.close(); 
     cout << total_score << endl;
 }
