@@ -4,8 +4,8 @@
 #include <string>
 #include <algorithm>
 #include <map>
-#include<vector>
-#include<numeric>
+#include <vector>
+#include <numeric>
 
 using namespace std;
 
