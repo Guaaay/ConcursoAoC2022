@@ -39,6 +39,7 @@ int main () {
             
             char result;
             bool found = false;
+            //3 loops y me la pela 
             for(int i = 0; i < lens[0] && !found; i++){
                 for(int j = 0; j < lens[1] && !found; j++){
                     if(sacks[0][i] == sacks[1][j]){
