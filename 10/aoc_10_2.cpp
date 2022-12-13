@@ -25,7 +25,7 @@ vector<string> split(string x, char delim = ' ')
 
 void reset_row(string row[40]){
     for(int i = 0; i < 40; i++){
-        row[i] = ".";
+        row[i] = " ";
     }
 }
 

@@ -183,4 +183,3 @@ int main()
         inspections.push_back(monkeys[i]->inspections);
     }
    
-}
